@@ -34,14 +34,21 @@ body, html {
     background: radial-gradient(circle, rgba(91,91,250,1) 0%, rgba(195,148,233,1) 100%);
 }
   
-.header-content h1, .header-content p {
+.header-content h1, .header-content p, .header-content address {
     text-align: center;
     margin: 20px;
     padding: 10px;
 }
 
+.header-content address {
+    margin: 0;
+    padding: 0;
+}
+
 .header-content h1 {
     font-size: 55px;
+    margin-bottom: 3px;
+    padding-bottom: 2px;
 }
 
 .main-container {
